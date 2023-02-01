@@ -7,9 +7,9 @@
  * @author  Tom (https://github.com/tominon)
  */
 
-
-$verifyToken = 'VERIFY_TOKEN'; // You will specify it when you enable the Webhook for your app
-$appSecret = 'APP_SECRET';
+$mode='subscribe'
+$challenge='1158201444'
+$verify_token='meatyhamhock'
 
 // Handle verification request
 if (isset($_GET['hub_mode']) && $_GET['hub_mode'] === 'subscribe') {
